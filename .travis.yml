@@ -22,6 +22,7 @@ after_success:
   - docker push harisht847/multi-nginx
   - docker push harisht847/multi-server
   - docker push harisht847/multi-worker
+  
 deploy:
   provider: elasticbeanstalk
   region:  "us-east-2"  
